@@ -1,0 +1,59 @@
+{
+	"Onslaught Attack Ship" : {
+		"class"		:	"Corvet",
+		"hull"		:	4,
+		"power"		:	10,
+		"speed"		:	19,
+		"handling"	:	3,
+		"shield"	:	0,
+		"weapons"	:	["Side laser batteries"]
+	},
+	"Imperial Frigate" : {
+		"class"		:	"Friget",
+		"hull"		:	5,
+		"power"		:	10,
+		"speed"		:	15,
+		"handling"	:	4,
+		"shield"	:	0,
+		"weapons"	:	["Side laser batteries"]
+	},
+	"Imperial Lance Frigate" :{
+		"class"		:	"Friget",
+		"hull"		:	5,
+		"power"		:	10,
+		"speed"		:	15,
+		"handling"	:	4,
+		"shield"	:	0,
+		"weapons"	:	["Nautical Lance"]
+	},
+	"Imperial Destroyer" : {
+		"class"		:	"Heavy Corvet",
+		"hull"		:	4,
+		"power"		:	10,
+		"speed"		:	18,
+		"handling"	:	3,
+		"shield"	:	0,
+		"weapons"	:	["Side laser batteries"]
+	},
+	"Imperial Ironclad" : {
+		"class"		:	"Flagship",
+		"hull"		:	8,
+		"power"		:	12,
+		"speed"		:	10,
+		"handling"	:	5,
+		"shield"	:	2,
+		"weapons"	:	[
+							"Nautical Lance",
+							"Nautical Lance"
+						]
+	},
+	"Terror Ship" : {
+		"class"		:	"Destroyer",
+		"hull"		:	6,
+		"power"		:	10,
+		"speed"		:	12,
+		"handling"	:	4,
+		"shield"	:	0,
+		"weapons"	:	["Makro Kanon"]
+	}
+}

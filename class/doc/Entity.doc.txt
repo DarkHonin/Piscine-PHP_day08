@@ -1,0 +1,30 @@
+###################
+##################
+
+class	Entity      :   OClass
+
+##################
+###################
+
+Description:
+--------------
+    Serving as a container for rudamentery board pieces
+
+Variables:
+--------------
+
+    PRIVATE:
+        location    --  Array
+        size        --  Array
+
+Methods:
+--------------
+
+    getSize()
+
+        Returns the size of the entity. e.g. the amount of
+        blocks ocupied
+
+    getLocation()
+
+        Returns the location of the items center block on the board.

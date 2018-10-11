@@ -1,0 +1,29 @@
+###################
+##################
+
+class	OClass
+
+##################
+###################
+
+Description:
+--------------
+    This class is intended to serve as the base level
+    for all other game typed classes.
+
+    It posesses simple functionality for managing the 
+    objects better.
+
+Methods:
+--------------
+
+    log(    msg    )
+    
+        This method is intended to log information in a neat and traceable mannor.
+        It takes a string as argument intended to be the message.
+
+    doc()
+
+        If youre seeing this you probably know what this does. It prints out all
+        the documentation for a class as spesified.
+    
