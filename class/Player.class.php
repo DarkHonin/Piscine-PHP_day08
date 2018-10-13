@@ -2,7 +2,8 @@
 
 class Player extends OClass{
 
-	public $ships = array();
+	public	$ships = array();
+	public	$ready = false;
 	public	$name = "Undefined";
 
 	function __construct($name){

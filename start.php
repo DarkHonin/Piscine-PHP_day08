@@ -9,12 +9,6 @@ $pn2 = readline("Player 2 name: ");
 
 $game = new Game($pn1, $pn2);
 $query = "begin";
-$phases = [
-	"Placement",
-	"Orders",
-	"Movement",
-	"Fireing"
-];
 
 function help(){
 	echo "Orders: \n";
@@ -26,16 +20,36 @@ function help(){
 	readline("Press the return key to continue");
 }
 
-
 function quit(){
 	echo "Praise the Empiror!";
 	exit();
 }
 
-while ($query != 'quit'){
-	Render::display();
-	$query != readline(":: ");
-	
+function ship_power_status(){
+	echo "power status\n";
 }
 
-?>
+function ship_power_to($system){
+	echo "$system\n";
+}
+
+function list_ships(){
+	global $game;
+	$p = $game->getCurrentPlayer();
+	foreach($p->ships as $k=>$s){
+		echo "[$k]$s\n";
+	}
+}
+
+function ship_status($ship = Null){
+
+}
+
+function ship_place($ship, $place){
+	echo "ship placement\n";
+}
+
+$game->start();
+
+
+?>	
